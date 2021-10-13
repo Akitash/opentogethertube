@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column">
-    <h4 class="chat-header">Chat</h4>
+    <h4 class="chat-header">{{ $t('room.chat') }}</h4>
     <div
       ref="messages"
       @scroll="onScroll"
